@@ -64,7 +64,6 @@ $$\frac{1}{\sqrt{2}}\le ratio=\frac{f(x)}{g(x)}=\frac{\sqrt{4+x}}{2+\sqrt{x}}<1 
 It means the value of g(x) will always above f(x).
 
 ```{r, warning = FALSE, message = FALSE}
-# From b, we know when theta=5, the plot match best
 gam.rej <- function(n, theta){
   x <- rep(NA, n) 
   par1 <- theta; par2 <- theta + 0.5
